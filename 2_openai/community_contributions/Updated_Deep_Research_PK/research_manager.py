@@ -23,7 +23,7 @@ class ResearchManager:
             await self.send_email(report)
             yield "Email sent, research complete"
             yield report.markdown_report
-        
+
 
     async def plan_searches(self, query: str) -> WebSearchPlan:
         """ Plan the searches to perform for the query """
@@ -73,7 +73,7 @@ class ResearchManager:
 
         print("Finished writing report")
         return result.final_output_as(ReportData)
-    
+
     async def send_email(self, report: ReportData) -> None:
         print("Writing email...")
         result = await Runner.run(
