@@ -110,27 +110,6 @@ class ResearchManager:
                                     except json.JSONDecodeError:
                                         pass
 
-            # Buscar en new_items del resultado después del streaming
-            if not markdown_report:
-                print("DEBUG - Buscando en new_items después del streaming...")
-                try:
-                    for item in result.new_items:
-                        item_type = type(item).__name__
-                        print(f"DEBUG - new_item type: {item_type}")
-
-                        if item_type == "ToolCallOutputItem":
-                            output = getattr(item, 'output', None)
-                            if output and isinstance(output, str) and 'markdown_report' in output:
-                                try:
-                                    parsed = json.loads(output)
-                                    markdown_report = parsed.get('markdown_report')
-                                    print(f"DEBUG - Informe encontrado en new_items! Longitud: {len(markdown_report)}")
-                                    break
-                                except json.JSONDecodeError:
-                                    pass
-                except Exception as e:
-                    print(f"DEBUG - Error buscando en new_items: {e}")
-
             # Mostrar el informe en la UI
             yield "\n\n Investigación completada.\n\n"
 
