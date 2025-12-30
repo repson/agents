@@ -7,7 +7,7 @@ import requests
 
 class PushNotification(BaseModel):
     """Un mensaje a ser enviado al usuario"""
-    
+
     message: str = Field(..., description="El mensaje a ser enviado al usuario.")
 
 class PushNotificationTool(BaseTool):

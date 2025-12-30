@@ -40,20 +40,20 @@ class StockPicker():
     @agent
     def trending_company_finder(self) -> Agent:
         return Agent(config=self.agents_config['trending_company_finder'],
-                     tools=[SerperDevTool()], 
+                     tools=[SerperDevTool()],
                      memory = True)
-    
+
     @agent
     def financial_researcher(self) -> Agent:
-        return Agent(config=self.agents_config['financial_researcher'], 
+        return Agent(config=self.agents_config['financial_researcher'],
                      tools=[SerperDevTool()])
 
     @agent
     def stock_picker(self) -> Agent:
-        return Agent(config=self.agents_config['stock_picker'], 
-                     tools=[PushNotificationTool()], 
+        return Agent(config=self.agents_config['stock_picker'],
+                     tools=[PushNotificationTool()],
                      memory = True)
-    
+
     @task
     def find_trending_companies(self) -> Task:
         return Task(
@@ -73,7 +73,7 @@ class StockPicker():
         return Task(
             config=self.tasks_config['pick_best_company'],
         )
-    
+
 
 
 
@@ -106,7 +106,7 @@ class StockPicker():
                     path="./memory/"
                 )
             )
-        
+
         # Entity memory for tracking key information about entities
         entity_memory = EntityMemory(
             storage=RAGStorage(
@@ -120,16 +120,16 @@ class StockPicker():
                 path="./memory/"
             )
         )
-            
+
         return Crew(
             agents=self.agents,
-            tasks=self.tasks, 
+            tasks=self.tasks,
             process=Process.hierarchical,
             verbose=True,
             manager_agent=manager,
             memory=True,
 
             long_term_memory = long_term_memory,
-            short_term_memory = short_term_memory,            
+            short_term_memory = short_term_memory,
             entity_memory = entity_memory,
         )

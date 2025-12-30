@@ -20,8 +20,8 @@ class Coder():
             verbose=True,
             allow_code_execution=True,
             code_execution_mode="safe",  # Usa Docker para seguridad
-            max_execution_time=30, 
-            max_retry_limit=5 
+            max_execution_time=30,
+            max_retry_limit=5
     )
 
 
@@ -38,7 +38,7 @@ class Coder():
 
 
         return Crew(
-            agents=self.agents, 
+            agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,

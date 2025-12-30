@@ -8,7 +8,7 @@ def calculate_series(terms):
         # Calculate the current term
         current_term = (-1) ** n / (2 * n + 1)
         total += current_term
-    
+
     # Multiply the total by 4
     total *= 4
     return total

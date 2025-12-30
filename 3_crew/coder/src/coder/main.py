@@ -21,10 +21,6 @@ def run():
     inputs = {
         'assignment': assignment,
     }
-    
+
     result = Coder().crew().kickoff(inputs=inputs)
     print(result.raw)
-
-
-
-

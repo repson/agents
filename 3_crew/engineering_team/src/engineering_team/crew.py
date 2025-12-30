@@ -24,17 +24,17 @@ class EngineeringTeam():
             verbose=True,
             allow_code_execution=True,
             code_execution_mode="safe",  # Uses Docker for safety
-            max_execution_time=240, 
-            max_retry_limit=5 
+            max_execution_time=240,
+            max_retry_limit=5
         )
-    
+
     @agent
     def frontend_engineer(self) -> Agent:
         return Agent(
             config=self.agents_config['frontend_engineer'],
             verbose=True,
         )
-    
+
     @agent
     def test_engineer(self) -> Agent:
         return Agent(
@@ -42,8 +42,8 @@ class EngineeringTeam():
             verbose=True,
             allow_code_execution=True,
             code_execution_mode="safe",  # Uses Docker for safety
-            max_execution_time=240, 
-            max_retry_limit=5 
+            max_execution_time=240,
+            max_retry_limit=5
         )
 
     @task
@@ -68,7 +68,7 @@ class EngineeringTeam():
     def test_task(self) -> Task:
         return Task(
             config=self.tasks_config['test_task'],
-        )   
+        )
 
     @crew
     def crew(self) -> Crew:
