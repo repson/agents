@@ -11,7 +11,7 @@ HOW_MANY_AGENTS = 20
 async def create_and_message(worker, creator_id, i: int):
     try:
         result = await worker.send_message(messages.Message(content=f"agent{i}.py"), creator_id)
-        with open(f"idea{i}.md", "w") as f:
+        with open(f"/app/output/idea{i}.md", "w") as f:
             f.write(result.content)
     except Exception as e:
         print(f"Error al ejecutar worker {i} debido a excepción: {e}")

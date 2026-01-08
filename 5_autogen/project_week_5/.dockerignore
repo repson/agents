@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Archivos generados dinámicamente
+agent[0-9]*.py
+idea*.md
+
+# Control de versiones
+.git/
+.gitignore
+
+# Variables de entorno
+.env
+.env.local
+
+# Scripts de host
+build.sh
+run.sh
+
+# Documentación
+README.md
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Outputs
+output/

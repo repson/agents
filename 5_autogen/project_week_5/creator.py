@@ -7,6 +7,7 @@ from autogen_core import TRACE_LOGGER_NAME
 import importlib
 import logging
 from autogen_core import AgentId
+import sys
 
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(TRACE_LOGGER_NAME)
@@ -30,11 +31,14 @@ class Creator(RoutedAgent):
     Responde solo con el código python, no otro texto, y no bloques de código markdown.
     """
 
-
     def __init__(self, name) -> None:
         super().__init__(name)
         model_client = OpenAIChatCompletionClient(model="gpt-4o-mini", temperature=1.0)
         self._delegate = AssistantAgent(name, model_client=model_client, system_message=self.system_message)
+
+        # Añadir /app/output al sys.path AQUÍ (una sola vez al iniciar)
+        if "/app/output" not in sys.path:
+            sys.path.insert(0, "/app/output")
 
     def get_user_prompt(self):
         prompt = "Por favor genera un nuevo Agente basado estrictamente en este template. Sigue la estructura de la clase. \
@@ -45,17 +49,22 @@ class Creator(RoutedAgent):
             template = f.read()
         return prompt + template
 
-
     @message_handler
     async def handle_my_message_type(self, message: messages.Message, ctx: MessageContext) -> messages.Message:
         filename = message.content
         agent_name = filename.split(".")[0]
         text_message = TextMessage(content=self.get_user_prompt(), source="user")
         response = await self._delegate.on_messages([text_message], ctx.cancellation_token)
-        with open(filename, "w", encoding="utf-8") as f:
+
+        # Guardar en /app/output/
+        with open(f"/app/output/{filename}", "w", encoding="utf-8") as f:
             f.write(response.chat_message.content)
+
         print(f"** Creator ha creado código python para el agente {agent_name} - acerca de registrar con Runtime")
-        module = importlib.import_module(agent_name) # Es cómo hacer import agent_name como módulo
+
+        # Ya NO es necesario modificar sys.path aquí porque ya se hizo en __init__
+
+        module = importlib.import_module(agent_name)
         await module.Agent.register(self.runtime, agent_name, lambda: module.Agent(agent_name))
         logger.info(f"** El agente {agent_name} está vivo")
         result = await self.send_message(messages.Message(content="Dame una idea"), AgentId(agent_name, "default"))
