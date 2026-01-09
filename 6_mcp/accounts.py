@@ -20,7 +20,7 @@ class Transaction(BaseModel):
 
     def total(self) -> float:
         return self.quantity * self.price
-    
+
     def __repr__(self):
         return f"{abs(self.quantity)} acciones de {self.symbol} a {self.price} cada una."
 
@@ -47,8 +47,8 @@ class Account(BaseModel):
             }
             write_account(name, fields)
         return cls(**fields)
-    
-    
+
+
     def save(self):
         write_account(self.name.lower(), self.model_dump())
 
@@ -81,19 +81,19 @@ class Account(BaseModel):
         price = get_share_price(symbol)
         buy_price = price * (1 + SPREAD)
         total_cost = buy_price * quantity
-        
+
         if total_cost > self.balance:
             raise ValueError("Fondos insuficientes para comprar acciones.")
         elif price==0:
             raise ValueError(f"Símbolo no reconocido {symbol}")
-        
+
         # Actualizar existencias
         self.holdings[symbol] = self.holdings.get(symbol, 0) + quantity
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         # Registrar transacción
         transaction = Transaction(symbol=symbol, quantity=quantity, price=buy_price, timestamp=timestamp, rationale=rationale)
         self.transactions.append(transaction)
-        
+
         # Update balance
         self.balance -= total_cost
         self.save()
@@ -104,14 +104,14 @@ class Account(BaseModel):
         """ Vender acciones de una acción si el usuario tiene suficientes acciones.. """
         if self.holdings.get(symbol, 0) < quantity:
             raise ValueError(f"No pueden venderse {quantity} acciones de {symbol}. No hay suficientes acciones en posesión.")
-        
+
         price = get_share_price(symbol)
         sell_price = price * (1 - SPREAD)
         total_proceeds = sell_price * quantity
-        
+
         # Actualizar existencias
         self.holdings[symbol] -= quantity
-        
+
         # Si las acciones se venden en su totalidad, retirarlas de las tenencias
         if self.holdings[symbol] == 0:
             del self.holdings[symbol]
@@ -149,7 +149,7 @@ class Account(BaseModel):
     def list_transactions(self):
         """ Lista todas las transacciones hechas por el usuario. """
         return [transaction.model_dump() for transaction in self.transactions]
-    
+
     def report(self) -> str:
         """ Devuelve un string de un json representando la cuenta.  """
         portfolio_value = self.calculate_portfolio_value()
@@ -161,12 +161,12 @@ class Account(BaseModel):
         data["total_profit_loss"] = pnl
         write_log(self.name, "account", f"Recuperados detalles de la cuenta")
         return json.dumps(data)
-    
+
     def get_strategy(self) -> str:
         """ Devuelve la estrategia de la cuenta """
         write_log(self.name, "account", f"Estrategia recibida")
         return self.strategy
-    
+
     def change_strategy(self, strategy: str) -> str:
         """ Si lo deseas, puedes llamar a este método para cambiar tu estrategia de inversión futura """
         self.strategy = strategy

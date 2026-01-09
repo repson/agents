@@ -58,7 +58,7 @@ class LogTracer(TracingProcessor):
             message = "Ended"
             if span.span_data:
                 if span.span_data.type:
-                    
+
                     message += f" {span.span_data.type}"
                 if hasattr(span.span_data, "name") and span.span_data.name:
                     message += f" {span.span_data.name}"
