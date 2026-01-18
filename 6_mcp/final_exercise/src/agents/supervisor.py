@@ -96,7 +96,7 @@ class TradingSupervisor:
         - % del portfolio: {position_pct:.1f}%
 
         GESTIÓN DE RIESGO:
-        - Stop Loss: {f"${proposal['stop_loss']:.2f}" if proposal.get('stop_loss') else "NO CONFIGURADO ⚠️"}
+        - Stop Loss: {f"${proposal['stop_loss']:.2f}" if proposal.get('stop_loss') else "NO CONFIGURADO"}
         - Take Profit: {f"${proposal['take_profit']:.2f}" if proposal.get('take_profit') else "No especificado"}
 
         PORTFOLIO ACTUAL:
