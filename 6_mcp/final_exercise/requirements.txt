@@ -1,0 +1,35 @@
+# Core dependencies
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# OpenAI and AI agents
+openai>=1.0.0
+openai-agents>=0.1.0
+
+# MCP (Model Context Protocol)
+mcp>=1.0.0
+
+# Web framework for UI
+gradio>=4.0.0
+
+# Data manipulation and visualization
+pandas>=2.0.0
+plotly>=5.0.0
+
+# Market data API
+polygon-api-client>=1.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Database (included in Python standard library)
+# sqlite3 - built-in
+
+# Standard library modules (no installation needed)
+# asyncio - built-in
+# contextlib - built-in
+# datetime - built-in
+# enum - built-in
+# json - built-in
+# os - built-in
+# typing - built-in

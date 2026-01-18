@@ -5,6 +5,10 @@ from trading_floor import names, lastnames, short_model_names
 import plotly.express as px
 from accounts import Account
 from database import read_log
+import os
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
 
 mapper = {
     "trace": Color.WHITE,
@@ -199,5 +203,14 @@ def create_ui():
 
 
 if __name__ == "__main__":
+    # Configuración del servidor desde variables de entorno
+    server_host = os.getenv("SERVER_HOST", "192.168.0.37")  # 0.0.0.0 escucha en todas las interfaces
+    server_port = int(os.getenv("SERVER_PORT", "7860"))
+
     ui = create_ui()
-    ui.launch(inbrowser=True)
+    ui.launch(
+        server_name=server_host,
+        server_port=server_port,
+        inbrowser=True,
+        share=False  # Cambia a True si quieres un enlace público de Gradio
+    )
