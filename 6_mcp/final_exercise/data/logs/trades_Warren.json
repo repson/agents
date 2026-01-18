@@ -1,18 +1,42 @@
 [
   {
-    "date": "2026-01-18 21:59:13",
-    "symbol": "AVGO",
-    "action": "Sell",
-    "quantity": 3,
-    "price": 351.71,
-    "rationale": "Taking profits from Broadcom due to strong performance and to free up cash for new investments."
+    "date": "2026-01-18",
+    "symbol": "PLUG",
+    "action": "sell",
+    "quantity": 5,
+    "price": 2.35528,
+    "rationale": "Reducir exposición a Plug Power para liberar efectivo y permitir nuevas inversiones en tecnología y energías renovables."
   },
   {
-    "date": "2026-01-18 21:59:13",
-    "symbol": "FSLR",
-    "action": "Buy",
+    "date": "2026-01-18",
+    "symbol": "NVDA",
+    "action": "buy",
+    "quantity": 1,
+    "price": 186.23,
+    "rationale": "Aumentar la exposición a NVIDIA en el sector de AI y alta tecnología, considerando su desarrollo constante y rendimiento."
+  },
+  {
+    "date": "2026-01-18",
+    "symbol": "TSLA",
+    "action": "buy",
+    "quantity": 1,
+    "price": 437.5,
+    "rationale": "Posicionándose en Tesla debido a su creciente influencia tanto en la industria automotriz como en almacenamiento energético."
+  },
+  {
+    "date": "2026-01-18",
+    "symbol": "MSFT",
+    "action": "buy",
+    "quantity": 1,
+    "price": 459.86,
+    "rationale": "Aumentar participación en Microsoft por su sólido liderazgo en tecnología de nube y AI."
+  },
+  {
+    "date": "2026-01-18",
+    "symbol": "ENPH",
+    "action": "buy",
     "quantity": 5,
-    "price": 244.21746,
-    "rationale": "Investing in First Solar due to its strong position in the solar industry and expected growth from rising demand."
+    "price": 34.98,
+    "rationale": "Incrementar en Enphase Energy alineado con las tendencias en energía solar y soluciones renovables."
   }
 ]

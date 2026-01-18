@@ -1,26 +1,140 @@
 [
   {
-    "date": "2026-01-18 21:59:10",
-    "symbol": "AVGO",
-    "action": "buy",
-    "quantity": 1,
-    "price": 352.41342,
-    "rationale": "Broadcom is expected to thrive in the AI semiconductor market, making it a strategic addition to bolster aggressive growth."
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 1,
+      "price": 186.23,
+      "rationale": "Nvidia's growth potential in AI chips positions it well for future demand.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   },
   {
-    "date": "2026-01-18 21:59:10",
-    "symbol": "LRCX",
-    "action": "buy",
-    "quantity": 1,
-    "price": 223.40592,
-    "rationale": "Lam Research is in a strong position to benefit from increasing demand in semiconductor manufacturing, aligning with growth strategies."
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AVGO",
+      "quantity": 1,
+      "price": 351.71,
+      "rationale": "Broadcom is positioned to thrive in the AI semiconductor market, reinforcing aggressive growth.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   },
   {
-    "date": "2026-01-18 21:59:10",
-    "symbol": "MU",
-    "action": "buy",
-    "quantity": 2,
-    "price": 362.75,
-    "rationale": "Micron is projected to benefit from increasing demand for memory products, especially given their strong market position in high-bandwidth memory."
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "LRCX",
+      "quantity": 1,
+      "price": 222.96,
+      "rationale": "The demand for semiconductor manufacturing equipment boosts Lam Research's growth potential.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "TSM",
+      "quantity": 1,
+      "price": 342.4,
+      "rationale": "TSMC's advancements and solid Q4 earnings showcase their strong position in the semiconductor market.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-18 23:46:14",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MU",
+      "quantity": 1,
+      "price": 362.75,
+      "rationale": "Micron's anticipated growth in the memory solutions sector aligns with my investment strategy.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-18 23:46:14",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AMAT",
+      "quantity": 1,
+      "price": 327.01,
+      "rationale": "Applied Materials' strong fundamentals in semiconductor manufacturing equipment make it a strategic acquisition.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   }
 ]

@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": "2026-01-18 23:46:12",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "FCEL",
+      "quantity": 2,
+      "price": 8.04,
+      "rationale": "Fortalecer la posición en FuelCell Energy, que está en la vanguardia de la transición hacia energías limpias y el hidrógeno.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "PLUG",
+      "quantity": 2,
+      "price": 2.36,
+      "rationale": "Aumentar la exposición a Plug Power, que está bien posicionada en el sector del hidrógeno, alineándose con la estrategia de expansión en producción de hidrógeno.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  }
+]

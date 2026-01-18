@@ -1,18 +1,94 @@
 [
   {
-    "date": "2026-01-18 22:03:25",
-    "symbol": "RIVN",
-    "action": "sell",
-    "quantity": 3,
-    "price": 16.63666,
-    "rationale": "Reducir la exposición a Rivian y liberar capital para nuevas inversiones en tecnología."
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "PLUG",
+      "quantity": 5,
+      "price": 2.36,
+      "rationale": "Liberar capital tras recientes ganancias en el sector de energía limpia.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   },
   {
-    "date": "2026-01-18 22:03:25",
-    "symbol": "ENPH",
-    "action": "sell",
-    "quantity": 5,
-    "price": 34.91004,
-    "rationale": "Tomar ganancias en Enphase Energy para reinvertir en acciones de alto crecimiento."
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AVGO",
+      "quantity": 1,
+      "price": 351.71,
+      "rationale": "Inversión en Broadcom para capitalizar el crecimiento en semiconductores.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 1,
+      "price": 186.23,
+      "rationale": "Aprovechar el crecimiento en AI y su fuerte posición en el mercado.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-18 23:46:13",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "RIVN",
+      "quantity": 3,
+      "price": 16.67,
+      "rationale": "Reducir exposición a Rivian para liberar capital para otras inversiones.",
+      "stop_loss": null,
+      "take_profit": null,
+      "sector": "Unknown"
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   }
 ]

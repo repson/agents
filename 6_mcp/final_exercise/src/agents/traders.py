@@ -16,6 +16,7 @@ from src.agents.templates import (
 )
 from src.mcp.mcp_params import trader_mcp_server_params, researcher_mcp_server_params
 
+
 load_dotenv(override=True)
 
 deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")

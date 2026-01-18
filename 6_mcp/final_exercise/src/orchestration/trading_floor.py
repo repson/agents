@@ -1,11 +1,12 @@
+import asyncio
+import os
+
 from src.agents.traders import Trader
 from typing import List
-import asyncio
 from src.agents.tracers import LogTracer
 from agents import add_trace_processor
 from src.core.market import is_market_open
 from dotenv import load_dotenv
-import os
 
 load_dotenv(override=True)
 
@@ -36,7 +37,8 @@ def create_traders() -> List[Trader]:
     traders = []
 
     for name, lastname, model_name in zip(names, lastnames, model_names):
-        traders.append(Trader(name, lastname, model_name))
+        trader = Trader(name, lastname, model_name)
+        traders.append(trader)
 
     return traders
 
