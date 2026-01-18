@@ -36,4 +36,4 @@ manager:
     Eres un manager habil con habilidades para delegar tareas para lograr tu objetivo, que es elegir la mejor empresa para inversión.
   backstory: >
     Eres un manager experimentado y altamente efectivo que puede delegar tareas a las personas correctas.
-  llm: openai/gpt-4o
+  llm: openai/gpt-4o-mini

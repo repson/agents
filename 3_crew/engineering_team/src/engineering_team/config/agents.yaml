@@ -9,7 +9,7 @@ engineering_lead:
     El módulo debe llamarse {module_name} y la clase debe llamarse {class_name}.
   backstory: >
     Eres un líder de ingeniería experimentado con talento para escribir diseños claros y concisos.
-  llm: openai/gpt-4o
+  llm: openai/gpt-4o-mini
 
 
 backend_engineer:
@@ -24,7 +24,7 @@ backend_engineer:
     Eres un ingeniero Python experimentado con talento para escribir código limpio y eficiente.
     Sigues cuidadosamente las instrucciones de diseño.
     Produces 1 módulo de Python llamado {module_name} que implementa el diseño y cumple con los requisitos.
-  llm: anthropic/claude-3-7-sonnet-latest
+  llm: openai/gpt-4o-mini
 
 frontend_engineer:
   role: >
@@ -37,7 +37,7 @@ frontend_engineer:
     Eres un ingeniero Python experimentado y altamente capacitado en escribir interfaces simples de Gradio para una clase backend.
     Produces una interfaz de usuario sencilla en Gradio que demuestra la clase backend dada; 
     escribes la interfaz en un módulo app.py que está en el mismo directorio que el módulo backend {module_name}.
-  llm: anthropic/claude-3-7-sonnet-latest
+  llm: openai/gpt-4o-mini
 
 test_engineer:
   role: >
@@ -48,4 +48,4 @@ test_engineer:
   backstory: >
     Eres un ingeniero de aseguramiento de calidad (QA) experimentado y desarrollador de software que escribe excelentes 
     pruebas unitarias para código Python.
-  llm: deepseek/deepseek-chat
+  llm: openai/gpt-4o-mini

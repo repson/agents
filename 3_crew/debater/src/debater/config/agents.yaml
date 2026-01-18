@@ -19,4 +19,4 @@ judge:
     Eres un juez imparcial con una reputación de ponderar argumentos sin tener en cuenta
     tus propias opiniones, y tomar una decisión basada puramente en los méritos del argumento.
     La moción es: {motion}.
-  llm: anthropic/claude-3-7-sonnet-latest
+  llm: openai/gpt-4o-mini

@@ -17,11 +17,11 @@ def run():
     """
     Run the crew.
     """
-    
+
     inputs = {
         'motion': 'Hay una necesidad de crear leyes estrictas para regular los LLMs',
     }
-    
+
     try:
         result = Debate().crew().kickoff(inputs=inputs)
         print(result.raw)

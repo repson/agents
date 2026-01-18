@@ -1,12 +1,9 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 
-
-
 @CrewBase
 class Coder():
     """Crew Programador"""
-
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 
@@ -24,19 +21,15 @@ class Coder():
             max_retry_limit=5
     )
 
-
     @task
     def coding_task(self) -> Task:
         return Task(
             config=self.tasks_config['coding_task'],
         )
 
-
     @crew
     def crew(self) -> Crew:
         """Crea la Crew Programador"""
-
-
         return Crew(
             agents=self.agents,
             tasks=self.tasks,

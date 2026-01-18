@@ -1,3 +1,16 @@
-Perplexity AI fue seleccionada como la mejor opción de inversión por su impresionante trayectoria de crecimiento y su proyección de valorización futura. La empresa ha demostrado un aumento significativo en el manejo de consultas diarias y se espera que su valor alcance los $32.3 billones en 2032. Aunque es una empresa privada, existen oportunidades para inversores acreditados, lo que puede ofrecer retornos lucrativos. 
-
-ZeroTier, aunque promete una fuerte demanda en soluciones de virtualización de redes, y Deepgram, con su tecnología avanzada de reconocimiento de voz, también muestran potencial; sin embargo, Perplexity AI destaca por su posición de mercado en rápido crecimiento y sus proyecciones robustas de crecimiento a largo plazo, lo cual inclinó la decisión final hacia su favor. ZeroTier y Deepgram no fueron seleccionadas debido a que, aunque muestran un buen potencial, no tienen las mismas proyecciones de valoración a largo plazo ni la misma trayectoria de crecimiento que Perplexity AI.
+{
+  "elected_company": {
+    "name": "Ouyko",
+    "reason": "Ouyko ha sido elegida debido a su alta potencialidad en el mercado tecnológico, con un enfoque en inteligencia artificial y machine learning, lo que lo posiciona favorablemente para aprovechar la creciente demanda en este sector."
+  },
+  "non_selected_companies": [
+    {
+      "name": "LandSpace",
+      "reason": "Aunque LandSpace tiene un interesante enfoque en la industria espacial y está desarrollando tecnología de cohetes reutilizables, su posición actual en el mercado es demasiado arriesgada para una inversión inmediata, ya que enfrenta una competencia significativa y tiene un camino de desarrollo aún por recorrer."
+    },
+    {
+      "name": "Clara",
+      "reason": "Clara, a pesar de su enfoque en soluciones de salud digital e innovación en tecnología de IA, se encuentra en un sector altamente competitivo y con desafíos regulatorios que podrían retrasar su crecimiento. Por lo tanto, no se considera la mejor opción para inversión en este momento."
+    }
+  ]
+}

@@ -21,4 +21,4 @@ analyst:
     y investigación de empresas. Tienes habilidades para identificar patrones y extraer
     ideas significativas de los datos de investigación, luego comunicarlas
     a través de informes bien elaborados.
-  llm: groq/llama-3.3-70b-versatile
+  llm: openai/gpt-4o-mini
