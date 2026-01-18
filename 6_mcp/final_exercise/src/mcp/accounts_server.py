@@ -112,7 +112,7 @@ async def buy_shares(name: str, symbol: str, quantity: int, rationale: str) -> f
         return account.buy_shares(symbol, quantity, f"{rationale} | Supervisor: {review['feedback']}")
     else:
         # Si está rechazada, no ejecutar y retornar mensaje
-        raise ValueError(f"❌ Operación RECHAZADA por supervisor: {review['feedback']}")
+        raise ValueError(f"Operación RECHAZADA por supervisor: {review['feedback']}")
 
 
 @mcp.tool()
@@ -155,7 +155,7 @@ async def sell_shares(name: str, symbol: str, quantity: int, rationale: str) -> 
         return account.sell_shares(symbol, quantity, f"{rationale} | Supervisor: {review['feedback']}")
     else:
         # Si está rechazada, no ejecutar y retornar mensaje
-        raise ValueError(f"❌ Operación RECHAZADA por supervisor: {review['feedback']}")
+        raise ValueError(f"Operación RECHAZADA por supervisor: {review['feedback']}")
 
 @mcp.tool()
 async def change_strategy(name: str, strategy: str) -> str:
