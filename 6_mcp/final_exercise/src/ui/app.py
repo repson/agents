@@ -1,11 +1,12 @@
 import gradio as gr
-from util import css, js, Color
-import pandas as pd
-from trading_floor import names, lastnames, short_model_names
-import plotly.express as px
-from accounts import Account
-from database import read_log
 import os
+import pandas as pd
+import plotly.express as px
+
+from src.ui.util import css, js, Color
+from src.orchestration.trading_floor import names, lastnames, short_model_names
+from src.core.accounts import Account
+from src.core.database import read_log
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
@@ -37,7 +38,10 @@ class Trader:
         return self.account.get_strategy()
 
     def get_portfolio_value_df(self) -> pd.DataFrame:
-        df = pd.DataFrame(self.account.portfolio_value_time_series, columns=["datetime", "value"])
+        df = pd.DataFrame(
+            self.account.portfolio_value_time_series,
+            columns=["datetime", "value"]
+        )
         df["datetime"] = pd.to_datetime(df["datetime"])
         return df
 
@@ -53,8 +57,15 @@ class Trader:
             paper_bgcolor="#bbb",
             plot_bgcolor="#dde",
         )
-        fig.update_xaxes(tickformat="%m/%d", tickangle=45, tickfont=dict(size=8))
-        fig.update_yaxes(tickfont=dict(size=8), tickformat=",.0f")
+        fig.update_xaxes(
+            tickformat="%m/%d",
+            tickangle=45,
+            tickfont=dict(size=8)
+        )
+        fig.update_yaxes(
+            tickfont=dict(size=8),
+            tickformat=",.0f"
+        )
 
         return fig
 

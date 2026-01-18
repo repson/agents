@@ -1,20 +1,20 @@
 from contextlib import AsyncExitStack
-from accounts_client import read_accounts_resource, read_strategy_resource
-from tracers import make_trace_id
+from src.mcp.accounts_client import read_accounts_resource, read_strategy_resource
+from src.agents.tracers import make_trace_id
 from agents import Agent, Tool, Runner, OpenAIChatCompletionsModel, trace
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
 import os
 import json
 from agents.mcp import MCPServerStdio
-from templates import (
+from src.agents.templates import (
     researcher_instructions,
     trader_instructions,
     trade_message,
     rebalance_message,
     research_tool,
 )
-from mcp_params import trader_mcp_server_params, researcher_mcp_server_params
+from src.mcp.mcp_params import trader_mcp_server_params, researcher_mcp_server_params
 
 load_dotenv(override=True)
 

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv(override=True)
 
-DB = "accounts.db"
+DB = "data/accounts.db"
 
 
 with sqlite3.connect(DB) as conn:
@@ -74,8 +74,8 @@ def read_log(name: str, last_n=10):
     with sqlite3.connect(DB) as conn:
         cursor = conn.cursor()
         cursor.execute('''
-            SELECT datetime, type, message FROM logs 
-            WHERE name = ? 
+            SELECT datetime, type, message FROM logs
+            WHERE name = ?
             ORDER BY datetime DESC
             LIMIT ?
         ''', (name.lower(), last_n))

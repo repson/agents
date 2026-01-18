@@ -1,17 +1,18 @@
-from traders import Trader
+from src.agents.traders import Trader
 from typing import List
 import asyncio
-from tracers import LogTracer
+from src.agents.tracers import LogTracer
 from agents import add_trace_processor
-from market import is_market_open
+from src.core.market import is_market_open
 from dotenv import load_dotenv
 import os
 
 load_dotenv(override=True)
 
-RUN_EVERY_N_MINUTES = int(os.getenv("RUN_EVERY_N_MINUTES", "60"))
+# RUN_EVERY_N_MINUTES = int(os.getenv("RUN_EVERY_N_MINUTES", "60"))
+RUN_EVERY_N_MINUTES = int(os.getenv("RUN_EVERY_N_MINUTES", "1"))
 RUN_EVEN_WHEN_MARKET_IS_CLOSED = (
-    os.getenv("RUN_EVEN_WHEN_MARKET_IS_CLOSED", "false").strip().lower() == "true"
+    os.getenv("RUN_EVEN_WHEN_MARKET_IS_CLOSED", "true").strip().lower() == "true"
 )
 USE_MANY_MODELS = os.getenv("USE_MANY_MODELS", "false").strip().lower() == "true"
 

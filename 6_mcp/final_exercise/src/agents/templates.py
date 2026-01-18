@@ -1,5 +1,5 @@
 from datetime import datetime
-from market import is_paid_polygon, is_realtime_polygon
+from src.core.market import is_paid_polygon, is_realtime_polygon
 
 if is_realtime_polygon:
     note = "Tienes acceso a herramientas de datos de mercado en tiempo real; utiliza tu herramienta get_last_trade para obtener el precio de la última transacción. También puedes usar herramientas para información de acciones, tendencias, indicadores técnicos y fundamentales."
