@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-01-18 21:59:13",
+    "symbol": "AVGO",
+    "action": "Sell",
+    "quantity": 3,
+    "price": 351.71,
+    "rationale": "Taking profits from Broadcom due to strong performance and to free up cash for new investments."
+  },
+  {
+    "date": "2026-01-18 21:59:13",
+    "symbol": "FSLR",
+    "action": "Buy",
+    "quantity": 5,
+    "price": 244.21746,
+    "rationale": "Investing in First Solar due to its strong position in the solar industry and expected growth from rising demand."
+  }
+]

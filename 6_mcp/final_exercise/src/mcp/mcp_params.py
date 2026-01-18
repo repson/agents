@@ -33,6 +33,11 @@ trader_mcp_server_params = [
         "args": ["run", "python", "-m", "src.mcp.push_server"]
     },
     market_mcp,
+    {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "./data/logs"],
+        "env": None
+    },
 ]
 
 # El conjunto completo de servidores MCP para el investigador: Fetch, Brave Search y Memoria

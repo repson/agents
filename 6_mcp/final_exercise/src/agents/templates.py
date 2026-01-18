@@ -63,8 +63,10 @@ Aquí está tu cuenta actual:
 La fecha y hora actual es:
 {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 Ahora, realiza el análisis, toma tu decisión y ejecuta las operaciones. El nombre de tu cuenta es {name}.
-Después de ejecutar tus operaciones, envía una notificación push con un breve resumen de las operaciones y el estado de tu portafolio, luego
-responde con una breve valoración de 2-3 frases sobre tu portafolio y sus perspectivas.
+Después de ejecutar tus operaciones:
+1. Registra el movimiento en el archivo JSON 'trades_{name}.json' con formato legible (indent=2): fecha, símbolo, acción, cantidad, precio, razonamiento
+2. Envía una notificación push con un breve resumen de las operaciones y el estado de tu portafolio
+3. Responde con una breve valoración de 2-3 frases sobre tu portafolio y sus perspectivas
 """
 
 def rebalance_message(name, strategy, account):
@@ -82,5 +84,7 @@ Aquí está tu cuenta actual:
 La fecha y hora actual es:
 {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 Ahora, realiza el análisis, toma tu decisión y ejecuta las operaciones. El nombre de tu cuenta es {name}.
-Después de ejecutar tus operaciones, envía una notificación push con un breve resumen de las operaciones y el estado de tu portafolio, luego
-responde con una breve valoración de 2-3 frases sobre tu portafolio y sus perspectivas."""
+Después de ejecutar tus operaciones:
+1. Registra el movimiento en el archivo JSON 'trades_{name}.json' con formato legible (indent=2): fecha, símbolo, acción, cantidad, precio, razonamiento
+2. Envía una notificación push con un breve resumen de las operaciones y el estado de tu portafolio
+3. Responde con una breve valoración de 2-3 frases sobre tu portafolio y sus perspectivas"""

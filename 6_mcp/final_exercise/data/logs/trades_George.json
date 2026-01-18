@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-01-18 22:03:25",
+    "symbol": "RIVN",
+    "action": "sell",
+    "quantity": 3,
+    "price": 16.63666,
+    "rationale": "Reducir la exposición a Rivian y liberar capital para nuevas inversiones en tecnología."
+  },
+  {
+    "date": "2026-01-18 22:03:25",
+    "symbol": "ENPH",
+    "action": "sell",
+    "quantity": 5,
+    "price": 34.91004,
+    "rationale": "Tomar ganancias en Enphase Energy para reinvertir en acciones de alto crecimiento."
+  }
+]

@@ -2,11 +2,19 @@
 
 # Script para iniciar el sistema de trading completo
 # Ejecuta tanto el motor de trading como la interfaz web
+# Uso: ./start.sh [SERVER_HOST]
+# Ejemplo: ./start.sh 0.0.0.0
 
-echo "Iniciando sistema de trading..."
+echo "🚀 Iniciando sistema de trading..."
 
 # Configurar PYTHONPATH para que Python encuentre el módulo src
 export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+
+# Configurar SERVER_HOST si se pasa como parámetro
+if [ -n "$1" ]; then
+    export SERVER_HOST="$1"
+    echo "📡 Usando IP personalizada: $SERVER_HOST"
+fi
 
 # Inicia el trading floor en segundo plano
 echo "Iniciando trading floor..."
