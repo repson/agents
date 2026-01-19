@@ -1,140 +1,26 @@
 [
   {
-    "timestamp": "2026-01-18 23:46:13",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "NVDA",
-      "quantity": 1,
-      "price": 186.23,
-      "rationale": "Nvidia's growth potential in AI chips positions it well for future demand.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
+    "date": "2026-01-19 21:53:49",
+    "symbol": "NVDA",
+    "action": "BUY",
+    "quantity": 3,
+    "price": 186.23,
+    "rationale": "Increased investment in NVDA to capture future growth in the semiconductor market driven by AI demand."
   },
   {
-    "timestamp": "2026-01-18 23:46:13",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "AVGO",
-      "quantity": 1,
-      "price": 351.71,
-      "rationale": "Broadcom is positioned to thrive in the AI semiconductor market, reinforcing aggressive growth.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
+    "date": "2026-01-19 21:53:48",
+    "symbol": "MU",
+    "action": "BUY",
+    "quantity": 2,
+    "price": 362.75,
+    "rationale": "Investing in Micron as the memory segment is expected to grow significantly, positioning it well for future demand."
   },
   {
-    "timestamp": "2026-01-18 23:46:13",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "LRCX",
-      "quantity": 1,
-      "price": 222.96,
-      "rationale": "The demand for semiconductor manufacturing equipment boosts Lam Research's growth potential.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-18 23:46:13",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "TSM",
-      "quantity": 1,
-      "price": 342.4,
-      "rationale": "TSMC's advancements and solid Q4 earnings showcase their strong position in the semiconductor market.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-18 23:46:14",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "MU",
-      "quantity": 1,
-      "price": 362.75,
-      "rationale": "Micron's anticipated growth in the memory solutions sector aligns with my investment strategy.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-18 23:46:14",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "AMAT",
-      "quantity": 1,
-      "price": 327.01,
-      "rationale": "Applied Materials' strong fundamentals in semiconductor manufacturing equipment make it a strategic acquisition.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
+    "date": "2026-01-19 21:53:49",
+    "symbol": "APH",
+    "action": "BUY",
+    "quantity": 5,
+    "price": 154.39,
+    "rationale": "Amphenol is likely to benefit from rising connectivity demands, making it a solid addition to the portfolio."
   }
 ]

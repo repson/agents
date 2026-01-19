@@ -38,5 +38,539 @@
     "quantity": 5,
     "price": 34.98,
     "rationale": "Incrementar en Enphase Energy alineado con las tendencias en energía solar y soluciones renovables."
+  },
+  {
+    "timestamp": "2026-01-19 21:42:48",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "SPWR",
+      "quantity": 10,
+      "price": 1.73,
+      "rationale": "SunPower's leadership in energy storage and government incentives for solar present growth opportunities.",
+      "stop_loss": 1.64,
+      "take_profit": 1.9,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 573,
+      "max_quantity": 573,
+      "position_percent": 0.17,
+      "risk_per_share": 0.09,
+      "risk_reward_ratio": 1.89
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:42:48",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NDAQ",
+      "quantity": 10,
+      "price": 100.98,
+      "rationale": "Investing in Nasdaq for exposure to a diversified tech portfolio.",
+      "stop_loss": 95.93,
+      "take_profit": 111.08,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 9,
+      "max_quantity": 9,
+      "position_percent": 10.17,
+      "risk_per_share": 5.05,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:42:48",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "ADBE",
+      "quantity": 3,
+      "price": 296.12,
+      "rationale": "Adobe is a leader in marketing and creative software, aligning with tech growth.",
+      "stop_loss": 281.31,
+      "take_profit": 325.73,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 8.95,
+      "risk_per_share": 14.81,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:42:49",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "PLTR",
+      "quantity": 5,
+      "price": 170.96,
+      "rationale": "Investing in Palantir Technologies due to strong growth potential in AI.",
+      "stop_loss": 162.41,
+      "take_profit": 188.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 8.61,
+      "risk_per_share": 8.55,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:42:49",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "TSLA",
+      "quantity": 2,
+      "price": 437.5,
+      "rationale": "Tesla's innovation and market leadership in EVs position it for growth in 2026.",
+      "stop_loss": 415.62,
+      "take_profit": 481.25,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 8.81,
+      "risk_per_share": 21.88,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:42:49",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NEE",
+      "quantity": 3,
+      "price": 83.63,
+      "rationale": "NextEra Energy aligns with trends in renewable energy and dividend growth.",
+      "stop_loss": 79.45,
+      "take_profit": 91.99,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 11,
+      "max_quantity": 11,
+      "position_percent": 2.53,
+      "risk_per_share": 4.18,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:45:21",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AVGO",
+      "quantity": 2,
+      "price": 351.71,
+      "rationale": "Aumentar posición en Broadcom dada su sólida proyección de crecimiento.",
+      "stop_loss": 334.12,
+      "take_profit": 386.88,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 7.09,
+      "risk_per_share": 17.59,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:45:21",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "ENPH",
+      "quantity": 4,
+      "price": 34.98,
+      "rationale": "Aumentar exposición en energía renovable con Enphase Energy, beneficiándose de incentivos y crecimiento sostenido.",
+      "stop_loss": 33.23,
+      "take_profit": 38.48,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 28,
+      "max_quantity": 28,
+      "position_percent": 1.41,
+      "risk_per_share": 1.75,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:45:21",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "PLUG",
+      "quantity": 5,
+      "price": 2.36,
+      "rationale": "Reducir exposición a Plug Power para liberar efectivo y permitir nuevas inversiones.",
+      "stop_loss": 2.24,
+      "take_profit": 2.6,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 0.12,
+      "risk_per_share": 0.12,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:45:21",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "SPWR",
+      "quantity": 15,
+      "price": 1.73,
+      "rationale": "Reducir exposición a SunPower por volatilidad en el sector renovable.",
+      "stop_loss": 1.64,
+      "take_profit": 1.9,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 0.26,
+      "risk_per_share": 0.09,
+      "risk_reward_ratio": 1.89
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:45:22",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "LRCX",
+      "quantity": 2,
+      "price": 222.96,
+      "rationale": "Incrementar participación en Lam Research debido a proyecciones positivas en el sector de semiconductores.",
+      "stop_loss": 211.81,
+      "take_profit": 245.26,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 4,
+      "max_quantity": 4,
+      "position_percent": 4.49,
+      "risk_per_share": 11.15,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:47:54",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "PLUG",
+      "quantity": 5,
+      "price": 2.36,
+      "rationale": "Capitalizing on the hydrogen market's growth potential and government support.",
+      "stop_loss": 2.24,
+      "take_profit": 2.6,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 420,
+      "max_quantity": 420,
+      "position_percent": 0.12,
+      "risk_per_share": 0.12,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:47:54",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "FSLR",
+      "quantity": 2,
+      "price": 243.73,
+      "rationale": "First Solar's leadership in renewable energy and favorable market dynamics make it a strong buy.",
+      "stop_loss": 231.54,
+      "take_profit": 268.1,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 4,
+      "max_quantity": 4,
+      "position_percent": 4.91,
+      "risk_per_share": 12.19,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:47:55",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NEE",
+      "quantity": 3,
+      "price": 83.63,
+      "rationale": "Investing in NextEra Energy due to its strategic shift towards renewable energies and strong growth prospects.",
+      "stop_loss": 79.45,
+      "take_profit": 91.99,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 11,
+      "max_quantity": 11,
+      "position_percent": 2.53,
+      "risk_per_share": 4.18,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:51:02",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "NIO",
+      "quantity": 5,
+      "price": 4.71,
+      "rationale": "Reducing exposure in NIO due to market volatility; repositioning cash for future investments.",
+      "stop_loss": 4.47,
+      "take_profit": 5.18,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 0.24,
+      "risk_per_share": 0.24,
+      "risk_reward_ratio": 1.96
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:54:01",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "CSIQ",
+      "quantity": 2,
+      "price": 21.74,
+      "rationale": "Canadian Solar is well-positioned for growth due to the global shift towards renewable energy.",
+      "stop_loss": 20.65,
+      "take_profit": 23.91,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 45,
+      "max_quantity": 45,
+      "position_percent": 0.44,
+      "risk_per_share": 1.09,
+      "risk_reward_ratio": 1.99
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:54:02",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NEE",
+      "quantity": 1,
+      "price": 83.63,
+      "rationale": "Investing in NextEra Energy for its leadership in renewable investments and alignment with market trends.",
+      "stop_loss": 79.45,
+      "take_profit": 91.99,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 11,
+      "max_quantity": 11,
+      "position_percent": 0.84,
+      "risk_per_share": 4.18,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:54:02",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "FCEL",
+      "quantity": 3,
+      "price": 8.04,
+      "rationale": "FuelCell Energy is engaged in producing clean energy, expected to benefit from growing adoption.",
+      "stop_loss": 7.64,
+      "take_profit": 8.84,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 123,
+      "max_quantity": 123,
+      "position_percent": 0.24,
+      "risk_per_share": 0.4,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   }
 ]

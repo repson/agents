@@ -1,0 +1,88 @@
+[
+  {
+    "timestamp": "2026-01-19 21:51:26",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "GOOGL",
+      "quantity": 1,
+      "price": 330,
+      "rationale": "Tomar ganancias y rebalancear el portafolio para aumentar liquidez.",
+      "stop_loss": 313.5,
+      "take_profit": 363.0,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.32,
+      "risk_per_share": 16.5,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:51:27",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "PLUG",
+      "quantity": 5,
+      "price": 2.36,
+      "rationale": "Aumentar la exposición en producción de hidrógeno alineado con la estrategia.",
+      "stop_loss": 2.24,
+      "take_profit": 2.6,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 421,
+      "max_quantity": 421,
+      "position_percent": 0.12,
+      "risk_per_share": 0.12,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:51:28",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "LRCX",
+      "quantity": 1,
+      "price": 222.96,
+      "rationale": "Reducir exposición en el mercado de semiconductores debido a la volatilidad.",
+      "stop_loss": 211.81,
+      "take_profit": 245.26,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.24,
+      "risk_per_share": 11.15,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  }
+]

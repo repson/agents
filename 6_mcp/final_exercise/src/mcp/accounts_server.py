@@ -4,11 +4,14 @@ from mcp.server.fastmcp import FastMCP
 from src.core.accounts import Account
 from src.agents.supervisor import TradingSupervisor
 from src.core.market import get_share_price
+from src.core.risk_manager import RiskManager
 from pathlib import Path
 from datetime import datetime
 
 mcp = FastMCP("accounts_server")
 
+# Crear instancias globales
+risk_manager = RiskManager()
 # Crear instancia global del supervisor
 supervisor = TradingSupervisor()
 
@@ -38,6 +41,7 @@ def _log_supervisor_review_to_json(name: str, proposal: dict, review: dict):
             "take_profit": proposal.get('take_profit'),
             "sector": proposal.get('sector', 'Unknown')
         },
+        "risk_params": proposal.get('risk_params', {}),
         "supervisor_review": {
             "approved": review['approved'],
             "risk_score": review['risk_score'],
@@ -84,8 +88,19 @@ async def buy_shares(name: str, symbol: str, quantity: int, rationale: str) -> f
     """
     account = Account.get(name)
     price = get_share_price(symbol)
+    portfolio_value = account.calculate_portfolio_value()
 
-    # Preparar propuesta para el supervisor
+    # Calcular parámetros de riesgo automáticamente
+    risk_params = risk_manager.analyze_trade(
+        portfolio_value=portfolio_value,
+        current_holdings=account.holdings,
+        symbol=symbol,
+        quantity=quantity,
+        price=price,
+        action="BUY"
+    )
+
+    # Preparar propuesta para el supervisor con parámetros de riesgo
     proposal = {
         "trader_name": name,
         "trader_strategy": account.get_strategy(),
@@ -94,11 +109,18 @@ async def buy_shares(name: str, symbol: str, quantity: int, rationale: str) -> f
         "quantity": quantity,
         "price": price,
         "rationale": rationale,
-        "stop_loss": None,  # Los traders no especifican esto actualmente
-        "take_profit": None,
-        "sector": "Unknown",  # No tenemos esta info en el contexto actual
-        "portfolio_value": account.calculate_portfolio_value(),
-        "current_holdings": account.holdings
+        "stop_loss": risk_params.stop_loss,
+        "take_profit": risk_params.take_profit,
+        "sector": "Unknown",
+        "portfolio_value": portfolio_value,
+        "current_holdings": account.holdings,
+        "risk_params": {
+            "recommended_quantity": risk_params.recommended_quantity,
+            "max_quantity": risk_params.max_quantity,
+            "position_percent": risk_params.position_percent,
+            "risk_per_share": risk_params.risk_per_share,
+            "risk_reward_ratio": risk_params.risk_reward_ratio
+        }
     }
 
     # Consultar al supervisor
@@ -127,8 +149,19 @@ async def sell_shares(name: str, symbol: str, quantity: int, rationale: str) -> 
     """
     account = Account.get(name)
     price = get_share_price(symbol)
+    portfolio_value = account.calculate_portfolio_value()
 
-    # Preparar propuesta para el supervisor
+    # Calcular parámetros de riesgo automáticamente
+    risk_params = risk_manager.analyze_trade(
+        portfolio_value=portfolio_value,
+        current_holdings=account.holdings,
+        symbol=symbol,
+        quantity=quantity,
+        price=price,
+        action="SELL"
+    )
+
+    # Preparar propuesta para el supervisor con parámetros de riesgo
     proposal = {
         "trader_name": name,
         "trader_strategy": account.get_strategy(),
@@ -137,11 +170,16 @@ async def sell_shares(name: str, symbol: str, quantity: int, rationale: str) -> 
         "quantity": quantity,
         "price": price,
         "rationale": rationale,
-        "stop_loss": None,
-        "take_profit": None,
+        "stop_loss": risk_params.stop_loss,
+        "take_profit": risk_params.take_profit,
         "sector": "Unknown",
-        "portfolio_value": account.calculate_portfolio_value(),
-        "current_holdings": account.holdings
+        "portfolio_value": portfolio_value,
+        "current_holdings": account.holdings,
+        "risk_params": {
+            "position_percent": risk_params.position_percent,
+            "risk_per_share": risk_params.risk_per_share,
+            "risk_reward_ratio": risk_params.risk_reward_ratio
+        }
     }
 
     # Consultar al supervisor

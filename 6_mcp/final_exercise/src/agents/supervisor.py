@@ -9,7 +9,6 @@ class TradingSupervisor:
     """
     Agente supervisor que revisa operaciones de trading.
     """
-
     def __init__(self):
         self.agent = Agent(
             name="Supervisor",
@@ -79,6 +78,20 @@ class TradingSupervisor:
         position_value = proposal['quantity'] * proposal['price']
         position_pct = (position_value / proposal['portfolio_value']) * 100
 
+        # Extraer parámetros de riesgo si están disponibles
+        risk_params = proposal.get('risk_params', {})
+        risk_section = ""
+
+        if risk_params:
+            risk_section = f"""
+        ANÁLISIS DE RIESGO (calculado automáticamente):
+        - Cantidad recomendada: {risk_params.get('recommended_quantity', 'N/A')} acciones
+        - Cantidad máxima: {risk_params.get('max_quantity', 'N/A')} acciones
+        - % del portfolio: {risk_params.get('position_percent', position_pct):.1f}%
+        - Riesgo por acción: ${risk_params.get('risk_per_share', 0):.2f}
+        - Ratio riesgo/beneficio: {risk_params.get('risk_reward_ratio', 'N/A')}:1
+        """
+
         # Preparar contexto para el supervisor
         context = f"""
         PROPUESTA DE OPERACIÓN
@@ -98,7 +111,7 @@ class TradingSupervisor:
         GESTIÓN DE RIESGO:
         - Stop Loss: {f"${proposal['stop_loss']:.2f}" if proposal.get('stop_loss') else "NO CONFIGURADO"}
         - Take Profit: {f"${proposal['take_profit']:.2f}" if proposal.get('take_profit') else "No especificado"}
-
+        {risk_section}
         PORTFOLIO ACTUAL:
         - Valor total: ${proposal['portfolio_value']:.2f}
         - Holdings: {json.dumps(proposal['current_holdings'], indent=2)}
