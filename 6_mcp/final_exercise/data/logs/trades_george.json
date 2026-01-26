@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": "2026-01-23 15:33:15",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "AVGO",
+      "quantity": 1,
+      "price": 325.49,
+      "rationale": "Reducir la exposición ante recientes aumentos en la volatilidad del precio.",
+      "stop_loss": 309.22,
+      "take_profit": 358.04,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.22,
+      "risk_per_share": 16.27,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 15:33:16",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ONON",
+      "quantity": 1,
+      "price": 46.62,
+      "rationale": "Tomar ganancias parciales en ONON dada su tendencia alcista.",
+      "stop_loss": 44.29,
+      "take_profit": 51.28,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 0.46,
+      "risk_per_share": 2.33,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 15:33:16",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "TXN",
+      "quantity": 1,
+      "price": 194.99,
+      "rationale": "Liberar parte de la inversión en Texas Instruments para diversificar.",
+      "stop_loss": 185.24,
+      "take_profit": 214.49,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 1.93,
+      "risk_per_share": 9.75,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 15:33:17",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "MU",
+      "quantity": 1,
+      "price": 397.58,
+      "rationale": "Liberar capital al reducir la exposición en Micron, que ha tenido un buen rendimiento.",
+      "stop_loss": 377.7,
+      "take_profit": 437.34,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.94,
+      "risk_per_share": 19.88,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 15:33:17",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "VUG",
+      "quantity": 2,
+      "price": 480.99,
+      "rationale": "Reducir exposición para realizar ganancias en VUG a medida que se acerca a su objetivo de precio.",
+      "stop_loss": 456.94,
+      "take_profit": 529.09,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 9.52,
+      "risk_per_share": 24.05,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 15:33:17",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "AMAT",
+      "quantity": 1,
+      "price": 318.785,
+      "rationale": "Se decide reducir la exposición tras el desempeño semestral estable.",
+      "stop_loss": 302.85,
+      "take_profit": 350.66,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.16,
+      "risk_per_share": 15.94,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  }
+]

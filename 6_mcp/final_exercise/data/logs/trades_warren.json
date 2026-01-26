@@ -1,0 +1,200 @@
+[
+  {
+    "timestamp": "2026-01-26 15:52:20",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "MU",
+      "quantity": 3,
+      "price": 399.65,
+      "rationale": "Selling Micron shares to realize profits from strong recent performance; reallocating capital to diversify investments.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 12.2,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 15:52:21",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "CRM",
+      "quantity": 5,
+      "price": 228.05,
+      "rationale": "Reducing exposure in Salesforce due to competitive pressures; reallocating funds to strengthen other positions in AI-driven stocks.",
+      "stop_loss": 216.65,
+      "take_profit": 250.86,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 11.61,
+      "risk_per_share": 11.4,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 15:52:21",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "MRVL",
+      "quantity": 5,
+      "price": 80.23,
+      "rationale": "Taking profits in Marvell due to significant appreciation; freeing up funds for further investments.",
+      "stop_loss": 76.22,
+      "take_profit": 88.25,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 4.08,
+      "risk_per_share": 4.01,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 15:52:22",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 1,
+      "price": 187.67,
+      "rationale": "Increasing position in NVIDIA to capitalize on its leading role in AI and strong future projections.",
+      "stop_loss": 178.29,
+      "take_profit": 206.44,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 1.91,
+      "risk_per_share": 9.38,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:49",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "AVGO",
+      "quantity": 1,
+      "price": 320.05,
+      "rationale": "Securing profits on Broadcom as it reaches a favorable price, enhancing portfolio liquidity.",
+      "stop_loss": 304.05,
+      "take_profit": 352.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.26,
+      "risk_per_share": 16.0,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:49",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "LRCX",
+      "quantity": 1,
+      "price": 217.94,
+      "rationale": "Taking profits on Lam Research after strong price uptick, reallocating to other positions.",
+      "stop_loss": 207.04,
+      "take_profit": 239.73,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.22,
+      "risk_per_share": 10.9,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:50",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "MU",
+      "quantity": 3,
+      "price": 399.65,
+      "rationale": "Reducing exposure in Micron after realizing strong gains and reallocating funds strategically.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 12.21,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  }
+]

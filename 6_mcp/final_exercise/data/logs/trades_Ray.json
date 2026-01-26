@@ -1,67 +1,29 @@
 [
   {
-    "timestamp": "2026-01-18 23:46:12",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "FCEL",
-      "quantity": 2,
-      "price": 8.04,
-      "rationale": "Fortalecer la posición en FuelCell Energy, que está en la vanguardia de la transición hacia energías limpias y el hidrógeno.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
+    "date": "2026-01-26 17:55:35",
+    "symbol": "PLTR",
+    "action": "sell",
+    "quantity": 5,
+    "price": 169.2608,
+    "rationale": "Reducing position in PLTR due to AI market volatility and reallocating funds to more stable growth assets."
   },
   {
-    "timestamp": "2026-01-18 23:46:13",
+    "timestamp": "2026-01-26 18:57:44",
     "proposal": {
       "action": "BUY",
-      "symbol": "PLUG",
-      "quantity": 2,
-      "price": 2.36,
-      "rationale": "Aumentar la exposición a Plug Power, que está bien posicionada en el sector del hidrógeno, alineándose con la estrategia de expansión en producción de hidrógeno.",
-      "stop_loss": null,
-      "take_profit": null,
-      "sector": "Unknown"
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:42:46",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "PLUG",
-      "quantity": 5,
-      "price": 2.36,
-      "rationale": "Increasing exposure to Plug Power, which is well-positioned in hydrogen production, aligning with my strategy.",
-      "stop_loss": 2.24,
-      "take_profit": 2.6,
+      "symbol": "AMD",
+      "quantity": 3,
+      "price": 259.68,
+      "rationale": "Investing in AMD as it is a leading player in AI technology with solid growth prospects.",
+      "stop_loss": 246.7,
+      "take_profit": 285.65,
       "sector": "Unknown"
     },
     "risk_params": {
-      "recommended_quantity": 421,
-      "max_quantity": 421,
-      "position_percent": 0.12,
-      "risk_per_share": 0.12,
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 7.89,
+      "risk_per_share": 12.98,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {
@@ -76,106 +38,22 @@
     "executed": true
   },
   {
-    "timestamp": "2026-01-19 21:42:47",
+    "timestamp": "2026-01-26 18:57:44",
     "proposal": {
       "action": "BUY",
-      "symbol": "FCEL",
-      "quantity": 2,
-      "price": 8.04,
-      "rationale": "FuelCell Energy shows strong potential in hydrogen energy transition; investing further aligns with my strategy.",
-      "stop_loss": 7.64,
-      "take_profit": 8.84,
-      "sector": "Unknown"
-    },
-    "risk_params": {
-      "recommended_quantity": 123,
-      "max_quantity": 123,
-      "position_percent": 0.16,
-      "risk_per_share": 0.4,
-      "risk_reward_ratio": 2.0
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:42:54",
-    "proposal": {
-      "action": "SELL",
-      "symbol": "FCEL",
-      "quantity": 5,
-      "price": 8.04,
-      "rationale": "Selling part of the position in FuelCell Energy to increase cash for new investments.",
-      "stop_loss": 7.64,
-      "take_profit": 8.84,
-      "sector": "Unknown"
-    },
-    "risk_params": {
-      "position_percent": 0.4,
-      "risk_per_share": 0.4,
-      "risk_reward_ratio": 2.0
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:42:54",
-    "proposal": {
-      "action": "SELL",
-      "symbol": "PLUG",
-      "quantity": 5,
-      "price": 2.36,
-      "rationale": "Reducing position in Plug Power due to insufficient funds for further investment.",
-      "stop_loss": 2.24,
-      "take_profit": 2.6,
-      "sector": "Unknown"
-    },
-    "risk_params": {
-      "position_percent": 0.12,
-      "risk_per_share": 0.12,
-      "risk_reward_ratio": 2.0
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:45:07",
-    "proposal": {
-      "action": "SELL",
       "symbol": "GOOGL",
-      "quantity": 1,
-      "price": 330,
-      "rationale": "Reducir exposición en tecnología para aumentar liquidez y diversificación.",
-      "stop_loss": 313.5,
-      "take_profit": 363.0,
+      "quantity": 2,
+      "price": 327.93,
+      "rationale": "Increased exposure to GOOGL, which is well-positioned in AI and cloud services.",
+      "stop_loss": 311.53,
+      "take_profit": 360.72,
       "sector": "Unknown"
     },
     "risk_params": {
-      "position_percent": 3.32,
-      "risk_per_share": 16.5,
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 6.64,
+      "risk_per_share": 16.4,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {
@@ -190,22 +68,22 @@
     "executed": true
   },
   {
-    "timestamp": "2026-01-19 21:45:07",
+    "timestamp": "2026-01-26 18:57:44",
     "proposal": {
       "action": "BUY",
-      "symbol": "FCEL",
-      "quantity": 5,
-      "price": 8.04,
-      "rationale": "FCEL sigue siendo un jugador importante en el espacio de hidrógeno y es coherente con mi estrategia de crecimiento.",
-      "stop_loss": 7.64,
-      "take_profit": 8.84,
+      "symbol": "AMZN",
+      "quantity": 1,
+      "price": 239.16,
+      "rationale": "AMZN is expanding its AI offerings, making it a relevant investment in the tech sector.",
+      "stop_loss": 227.2,
+      "take_profit": 263.08,
       "sector": "Unknown"
     },
     "risk_params": {
-      "recommended_quantity": 123,
-      "max_quantity": 123,
-      "position_percent": 0.4,
-      "risk_per_share": 0.4,
+      "recommended_quantity": 4,
+      "max_quantity": 4,
+      "position_percent": 2.42,
+      "risk_per_share": 11.96,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {
@@ -220,20 +98,230 @@
     "executed": true
   },
   {
-    "timestamp": "2026-01-19 21:45:08",
+    "timestamp": "2026-01-26 18:57:45",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "ARTY",
+      "quantity": 5,
+      "price": 52.15,
+      "rationale": "The iShares Future AI and Tech ETF offers diversified exposure to up-and-coming AI companies.",
+      "stop_loss": 49.54,
+      "take_profit": 57.37,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 18,
+      "max_quantity": 18,
+      "position_percent": 2.64,
+      "risk_per_share": 2.61,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 18:57:45",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "ARKW",
+      "quantity": 3,
+      "price": 146.025,
+      "rationale": "ARKW focuses on future tech innovations, including AI, aligning well with my investment strategy.",
+      "stop_loss": 138.72,
+      "take_profit": 160.63,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 6,
+      "max_quantity": 6,
+      "position_percent": 4.43,
+      "risk_per_share": 7.31,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:57",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AMD",
+      "quantity": 2,
+      "price": 259.68,
+      "rationale": "Opportunistic buy in AMD as it is developing competitive AI technologies.",
+      "stop_loss": 246.7,
+      "take_profit": 285.65,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 5.26,
+      "risk_per_share": 12.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:57",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "META",
+      "quantity": 2,
+      "price": 658.76,
+      "rationale": "Investing in Meta due to its aggressive AI initiatives which align with my strategy for growth.",
+      "stop_loss": 625.82,
+      "take_profit": 724.64,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 1,
+      "max_quantity": 1,
+      "position_percent": 13.34,
+      "risk_per_share": 32.94,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:57",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MU",
+      "quantity": 5,
+      "price": 399.65,
+      "rationale": "Investing in Micron Technology for its growth potential in AI data centers.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 20.23,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:58",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "QCOM",
+      "quantity": 3,
+      "price": 155.82,
+      "rationale": "Investment in Qualcomm to leverage its expansion into AI and machine learning markets.",
+      "stop_loss": 148.03,
+      "take_profit": 171.4,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 6,
+      "max_quantity": 6,
+      "position_percent": 4.73,
+      "risk_per_share": 7.79,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:58",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 3,
+      "price": 187.67,
+      "rationale": "Increased investment in Nvidia to capitalize on its leadership in AI technology and strong growth potential.",
+      "stop_loss": 178.29,
+      "take_profit": 206.44,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 5.7,
+      "risk_per_share": 9.38,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:28",
     "proposal": {
       "action": "SELL",
-      "symbol": "LRCX",
-      "quantity": 1,
-      "price": 222.96,
-      "rationale": "Disminuir la exposición a semiconductores debido a la volatilidad del mercado.",
-      "stop_loss": 211.81,
-      "take_profit": 245.26,
+      "symbol": "PLTR",
+      "quantity": 5,
+      "price": 169.6,
+      "rationale": "Reducing position in PLTR due to AI market volatility and reallocating funds to more stable growth assets.",
+      "stop_loss": 161.12,
+      "take_profit": 186.56,
       "sector": "Unknown"
     },
     "risk_params": {
-      "position_percent": 2.24,
-      "risk_per_share": 11.15,
+      "position_percent": 8.59,
+      "risk_per_share": 8.48,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {
@@ -248,22 +336,20 @@
     "executed": true
   },
   {
-    "timestamp": "2026-01-19 21:48:03",
+    "timestamp": "2026-01-26 20:21:28",
     "proposal": {
-      "action": "BUY",
-      "symbol": "PLUG",
+      "action": "SELL",
+      "symbol": "NVDA",
       "quantity": 5,
-      "price": 2.36,
-      "rationale": "Aumentar la exposición en Plug Power, bien posicionada en la producción de hidrógeno.",
-      "stop_loss": 2.24,
-      "take_profit": 2.6,
+      "price": 187.67,
+      "rationale": "Reducing exposure to NVDA to balance the portfolio and realize some profits amid potential market volatility.",
+      "stop_loss": 178.29,
+      "take_profit": 206.44,
       "sector": "Unknown"
     },
     "risk_params": {
-      "recommended_quantity": 421,
-      "max_quantity": 421,
-      "position_percent": 0.12,
-      "risk_per_share": 0.12,
+      "position_percent": 9.5,
+      "risk_per_share": 9.38,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {
@@ -278,112 +364,20 @@
     "executed": true
   },
   {
-    "timestamp": "2026-01-19 21:48:03",
+    "timestamp": "2026-01-26 20:21:29",
     "proposal": {
-      "action": "BUY",
-      "symbol": "FCEL",
-      "quantity": 5,
-      "price": 8.04,
-      "rationale": "Incrementar la posición en FuelCell Energy, alineado con la transición hacia el hidrógeno.",
-      "stop_loss": 7.64,
-      "take_profit": 8.84,
-      "sector": "Unknown"
-    },
-    "risk_params": {
-      "recommended_quantity": 123,
-      "max_quantity": 123,
-      "position_percent": 0.4,
-      "risk_per_share": 0.4,
-      "risk_reward_ratio": 2.0
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:48:03",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "CSIQ",
-      "quantity": 5,
-      "price": 21.74,
-      "rationale": "Invertir en Canadian Solar, reflejando la creciente demanda de energía solar.",
-      "stop_loss": 20.65,
-      "take_profit": 23.91,
-      "sector": "Unknown"
-    },
-    "risk_params": {
-      "recommended_quantity": 45,
-      "max_quantity": 45,
-      "position_percent": 1.09,
-      "risk_per_share": 1.09,
-      "risk_reward_ratio": 1.99
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:48:03",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "NEE",
-      "quantity": 5,
-      "price": 83.63,
-      "rationale": "Expandir posición en NextEra Energy, un líder en energía renovable.",
-      "stop_loss": 79.45,
-      "take_profit": 91.99,
-      "sector": "Unknown"
-    },
-    "risk_params": {
-      "recommended_quantity": 11,
-      "max_quantity": 11,
-      "position_percent": 4.2,
-      "risk_per_share": 4.18,
-      "risk_reward_ratio": 2.0
-    },
-    "supervisor_review": {
-      "approved": true,
-      "risk_score": 5,
-      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
-      "suggestions": [],
-      "concerns": [
-        "Revisar manualmente"
-      ]
-    },
-    "executed": true
-  },
-  {
-    "timestamp": "2026-01-19 21:53:55",
-    "proposal": {
-      "action": "BUY",
-      "symbol": "ENPH",
+      "action": "SELL",
+      "symbol": "PSTG",
       "quantity": 10,
-      "price": 34.98,
-      "rationale": "Enphase Energy is leading in solar technology with strong market potential due to increasing demand for renewable energy.",
-      "stop_loss": 33.23,
-      "take_profit": 38.48,
+      "price": 69.75,
+      "rationale": "Locking in profits from PSTG's recent performance and reducing exposure due to high valuation.",
+      "stop_loss": 66.26,
+      "take_profit": 76.73,
       "sector": "Unknown"
     },
     "risk_params": {
-      "recommended_quantity": 28,
-      "max_quantity": 28,
-      "position_percent": 3.52,
-      "risk_per_share": 1.75,
+      "position_percent": 7.06,
+      "risk_per_share": 3.49,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {
@@ -398,22 +392,82 @@
     "executed": true
   },
   {
-    "timestamp": "2026-01-19 21:53:58",
+    "timestamp": "2026-01-26 20:25:49",
     "proposal": {
       "action": "BUY",
-      "symbol": "PLUG",
-      "quantity": 30,
-      "price": 2.36,
-      "rationale": "Plug Power is well-positioned in the hydrogen space and is expected to benefit from the transition to clean energy.",
-      "stop_loss": 2.24,
-      "take_profit": 2.6,
+      "symbol": "AAPL",
+      "quantity": 2,
+      "price": 248.04,
+      "rationale": "Aumentar posición en Apple, que continúa innovando en el campo de la IA y tiene perspectivas de crecimiento sólido.",
+      "stop_loss": 235.64,
+      "take_profit": 272.84,
       "sector": "Unknown"
     },
     "risk_params": {
-      "recommended_quantity": 421,
-      "max_quantity": 421,
-      "position_percent": 0.71,
-      "risk_per_share": 0.12,
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 5.02,
+      "risk_per_share": 12.4,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:25:50",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "GOOGL",
+      "quantity": 2,
+      "price": 327.93,
+      "rationale": "Invirtiendo en Alphabet por su fuerte compromiso con la IA y el cloud computing, alineándose con mi estrategia de crecimiento en tecnología.",
+      "stop_loss": 311.53,
+      "take_profit": 360.72,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 6.64,
+      "risk_per_share": 16.4,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:25:50",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 3,
+      "price": 187.67,
+      "rationale": "Incrementar inversión en NVIDIA para capitalizar su liderazgo en tecnología de IA y crecimiento sostenido.",
+      "stop_loss": 178.29,
+      "take_profit": 206.44,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 5.7,
+      "risk_per_share": 9.38,
       "risk_reward_ratio": 2.0
     },
     "supervisor_review": {

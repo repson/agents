@@ -1,0 +1,800 @@
+[
+  {
+    "timestamp": "2026-01-19 21:34:28",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "PLTR",
+      "quantity": 20,
+      "price": 170.96,
+      "rationale": "Potencial de crecimiento en el sector tecnológico, especialmente en inteligencia artificial.",
+      "stop_loss": 162.41,
+      "take_profit": 188.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 34.19,
+      "risk_per_share": 8.55,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:34:34",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 10,
+      "price": 186.23,
+      "rationale": "Apuesta por el crecimiento del sector de semiconductores, especialmente con la AI.",
+      "stop_loss": 176.92,
+      "take_profit": 204.85,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 18.64,
+      "risk_per_share": 9.31,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 21:34:35",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "ADI",
+      "quantity": 10,
+      "price": 300.25,
+      "rationale": "Fuerte potencial en el sector de semiconductores, alineado con tendencias de crecimiento.",
+      "stop_loss": 285.24,
+      "take_profit": 330.28,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 30.05,
+      "risk_per_share": 15.01,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 22:40:21",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "LRCX",
+      "quantity": 3,
+      "price": 222.96,
+      "rationale": "Rebalanceado debido a la falta de progreso en el sector y un rendimiento por debajo de las expectativas.",
+      "stop_loss": 211.81,
+      "take_profit": 245.26,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 6.7,
+      "risk_per_share": 11.15,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-19 22:40:22",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "PLTR",
+      "quantity": 20,
+      "price": 170.96,
+      "rationale": "Rebalanceado debido a la caída en el precio y bajo rendimiento en relación con otras inversiones.",
+      "stop_loss": 162.41,
+      "take_profit": 188.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 34.24,
+      "risk_per_share": 8.55,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 06:50:36",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ADI",
+      "quantity": 2,
+      "price": 300.25,
+      "rationale": "Reducción de exposición en ADI tras el aumento de su precio, para rebalancear el portafolio.",
+      "stop_loss": 285.24,
+      "take_profit": 330.28,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 6.03,
+      "risk_per_share": 15.01,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 06:50:37",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "TSM",
+      "quantity": 5,
+      "price": 342.4,
+      "rationale": "Rebalanceo debido a la proyección de crecimiento, venta de acción para maximizar el rendimiento.",
+      "stop_loss": 325.28,
+      "take_profit": 376.64,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 17.18,
+      "risk_per_share": 17.12,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 18:08:18",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "TSM",
+      "quantity": 2,
+      "price": 342.4,
+      "rationale": "Reducción de exposición en TSM por un aumento significativo en el precio, optimizando el equilibrio del portafolio.",
+      "stop_loss": 325.28,
+      "take_profit": 376.64,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 6.88,
+      "risk_per_share": 17.12,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 18:08:18",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "AMD",
+      "quantity": 2,
+      "price": 231.83,
+      "rationale": "Reducir la posición en AMD para realizar ganancias, dada la volatilidad del mercado.",
+      "stop_loss": 220.24,
+      "take_profit": 255.01,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 4.66,
+      "risk_per_share": 11.59,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 18:08:19",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ADI",
+      "quantity": 3,
+      "price": 300.25,
+      "rationale": "Rebalancee la exposición en ADI debido a su reciente auge en el precio. Hacer esto maximiza el rendimiento del portafolio.",
+      "stop_loss": 285.24,
+      "take_profit": 330.28,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 9.05,
+      "risk_per_share": 15.01,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 18:08:19",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "TSLA",
+      "quantity": 1,
+      "price": 437.5,
+      "rationale": "Tomar ganancias en TSLA tras rendimiento sólido en el sector.",
+      "stop_loss": 415.62,
+      "take_profit": 481.25,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 4.39,
+      "risk_per_share": 21.88,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 19:09:37",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MU",
+      "quantity": 5,
+      "price": 362.75,
+      "rationale": "Micron Technology is poised for growth due to increasing demand for memory and strong forecast in the semiconductor sales.",
+      "stop_loss": 344.61,
+      "take_profit": 399.03,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 18.22,
+      "risk_per_share": 18.14,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 19:09:37",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "KLAC",
+      "quantity": 3,
+      "price": 1567.82,
+      "rationale": "KLA Corporation is shifting from hold to buy recommendations, indicating significant upside potential.",
+      "stop_loss": 1489.43,
+      "take_profit": 1724.6,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 1,
+      "max_quantity": 0,
+      "position_percent": 47.25,
+      "risk_per_share": 78.39,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-20 19:09:39",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "LRCX",
+      "quantity": 4,
+      "price": 222.96,
+      "rationale": "Lam Research is positioned well to benefit from the growing semiconductor demand.",
+      "stop_loss": 211.81,
+      "take_profit": 245.26,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 4,
+      "max_quantity": 4,
+      "position_percent": 8.96,
+      "risk_per_share": 11.15,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-21 16:14:08",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ADI",
+      "quantity": 2,
+      "price": 295.67,
+      "rationale": "Reducir exposición en ADI después de una subida en precios; se pueden reinvertir las ganancias.",
+      "stop_loss": 280.89,
+      "take_profit": 325.24,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 6.04,
+      "risk_per_share": 14.78,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-21 16:14:08",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "TSM",
+      "quantity": 5,
+      "price": 327.16,
+      "rationale": "Rebalancear portafolio tras la reciente actividad del mercado y tomar ganancias donde es posible.",
+      "stop_loss": 310.8,
+      "take_profit": 359.88,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 16.7,
+      "risk_per_share": 16.36,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-21 16:14:19",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "LRCX",
+      "quantity": 1,
+      "price": 222.41,
+      "rationale": "Vender una acción de LRCX tras el buen rendimiento y reafirmar el enfoque en las posiciones principales.",
+      "stop_loss": 211.29,
+      "take_profit": 244.65,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.27,
+      "risk_per_share": 11.12,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 16:24:12",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "NVDA",
+      "quantity": 2,
+      "price": 183.32,
+      "rationale": "Tomar ganancias sobre la reciente apreciación y mantener el enfoque en las posiciones más fuertes.",
+      "stop_loss": 174.15,
+      "take_profit": 201.65,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.62,
+      "risk_per_share": 9.17,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 16:24:13",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "TSLA",
+      "quantity": 1,
+      "price": 431.44,
+      "rationale": "Tomar ganancias tras un sólido rendimiento en el sector y reequilibrar el portafolio.",
+      "stop_loss": 409.87,
+      "take_profit": 474.58,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 4.26,
+      "risk_per_share": 21.57,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 16:24:14",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "LRCX",
+      "quantity": 1,
+      "price": 228.39,
+      "rationale": "Consolidar ganancias tras el buen rendimiento en el sector de semiconductores.",
+      "stop_loss": 216.97,
+      "take_profit": 251.23,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.25,
+      "risk_per_share": 11.42,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 20:29:55",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "MU",
+      "quantity": 2,
+      "price": 389.11,
+      "rationale": "Tomar ganancias tras un rendimiento sobresaliente, aprovechando el aumento del precio.",
+      "stop_loss": 369.65,
+      "take_profit": 428.02,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 7.68,
+      "risk_per_share": 19.46,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 20:29:55",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ADI",
+      "quantity": 2,
+      "price": 304.97,
+      "rationale": "Reducir la exposición en ADI tras alcanzar su máximo histórico, consolidando ganancias.",
+      "stop_loss": 289.72,
+      "take_profit": 335.47,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 6.02,
+      "risk_per_share": 15.25,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 20:29:56",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "NVDA",
+      "quantity": 2,
+      "price": 183.32,
+      "rationale": "Consolidar ganancias tras un fuerte rendimiento en un contexto de crecimiento en el sector de IA.",
+      "stop_loss": 174.15,
+      "take_profit": 201.65,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.62,
+      "risk_per_share": 9.17,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-22 20:29:56",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "LRCX",
+      "quantity": 1,
+      "price": 228.39,
+      "rationale": "Reducir la exposición en LRCX tras el buen rendimiento y asegurar beneficios.",
+      "stop_loss": 216.97,
+      "take_profit": 251.23,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.25,
+      "risk_per_share": 11.42,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 17:35:34",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "NVDA",
+      "quantity": 3,
+      "price": 184.84,
+      "rationale": "Tomar ganancias en NVDA tras un rendimiento sólido.",
+      "stop_loss": 175.6,
+      "take_profit": 203.32,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 5.41,
+      "risk_per_share": 9.24,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 17:35:34",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "AMD",
+      "quantity": 1,
+      "price": 253.73,
+      "rationale": "Reducir exposición en AMD después de las ganancias recientes.",
+      "stop_loss": 241.04,
+      "take_profit": 279.1,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.48,
+      "risk_per_share": 12.69,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 17:35:35",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ADI",
+      "quantity": 2,
+      "price": 308.52,
+      "rationale": "Reducir exposición en ADI tras el aumento considerable de precio.",
+      "stop_loss": 293.09,
+      "take_profit": 339.37,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 6.02,
+      "risk_per_share": 15.43,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-23 17:35:35",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "GFS",
+      "quantity": 2,
+      "price": 45.005,
+      "rationale": "Incrementar la posición en GFS, que tiene un fuerte crecimiento proyectado.",
+      "stop_loss": 42.75,
+      "take_profit": 49.51,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 22,
+      "max_quantity": 22,
+      "position_percent": 0.88,
+      "risk_per_share": 2.26,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  }
+]

@@ -1,26 +1,364 @@
 [
   {
-    "date": "2026-01-19 21:53:49",
-    "symbol": "NVDA",
-    "action": "BUY",
-    "quantity": 3,
-    "price": 186.23,
-    "rationale": "Increased investment in NVDA to capture future growth in the semiconductor market driven by AI demand."
-  },
-  {
-    "date": "2026-01-19 21:53:48",
-    "symbol": "MU",
-    "action": "BUY",
+    "date": "2026-01-26 17:55:34",
+    "symbol": "ADI",
+    "action": "sell",
     "quantity": 2,
-    "price": 362.75,
-    "rationale": "Investing in Micron as the memory segment is expected to grow significantly, positioning it well for future demand."
+    "price": 304.9888,
+    "rationale": "Reducción de exposición en ADI tras alcanzar un precio alto, asegurando ganancias."
   },
   {
-    "date": "2026-01-19 21:53:49",
-    "symbol": "APH",
-    "action": "BUY",
-    "quantity": 5,
-    "price": 154.39,
-    "rationale": "Amphenol is likely to benefit from rising connectivity demands, making it a solid addition to the portfolio."
+    "timestamp": "2026-01-26 18:57:52",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MU",
+      "quantity": 2,
+      "price": 399.65,
+      "rationale": "Micron ha tenido un rendimiento excepcional y es un jugador clave en el mercado de chips de memoria.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 7.75,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 18:57:52",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "KLAC",
+      "quantity": 1,
+      "price": 1512.78,
+      "rationale": "Atractiva posición en el aumento de la demanda de soluciones de fabricación de chips para IA.",
+      "stop_loss": 1437.14,
+      "take_profit": 1664.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 1,
+      "max_quantity": 0,
+      "position_percent": 14.67,
+      "risk_per_share": 75.64,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 18:57:53",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 2,
+      "price": 187.67,
+      "rationale": "Sigue siendo líder en el suministro de chips para centros de datos impulsados por IA.",
+      "stop_loss": 178.29,
+      "take_profit": 206.44,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 3.64,
+      "risk_per_share": 9.38,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:35",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "NVDA",
+      "quantity": 2,
+      "price": 187.67,
+      "rationale": "NVIDIA is a leader in the AI semiconductor sector, and recent projections suggest strong demand for their products. Investing now could yield substantial returns as AI adoption increases.",
+      "stop_loss": 178.29,
+      "take_profit": 206.44,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 5,
+      "max_quantity": 5,
+      "position_percent": 3.64,
+      "risk_per_share": 9.38,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:35",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AVGO",
+      "quantity": 1,
+      "price": 320.05,
+      "rationale": "Broadcom has a strong strategic position in AI technologies and is expected to see solid growth. Investing now secures a position in a rapidly evolving market.",
+      "stop_loss": 304.05,
+      "take_profit": 352.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 3.1,
+      "risk_per_share": 16.0,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 19:19:36",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MU",
+      "quantity": 2,
+      "price": 399.65,
+      "rationale": "Micron Technology is poised to benefit from the growing demand in AI-related semiconductor components, making a compelling investment.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 7.75,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:51",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "ADI",
+      "quantity": 1,
+      "price": 305.6,
+      "rationale": "Reducir exposición en ADI tras alcanzar un precio alto, asegurando ganancias.",
+      "stop_loss": 290.32,
+      "take_profit": 336.16,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 2.96,
+      "risk_per_share": 15.28,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:51",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "GFS",
+      "quantity": 3,
+      "price": 42.85,
+      "rationale": "Tomar ganancias y reducir la exposición a GFS debido a su reciente disminución en el valor.",
+      "stop_loss": 40.71,
+      "take_profit": 47.14,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 1.25,
+      "risk_per_share": 2.14,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:21:52",
+    "proposal": {
+      "action": "SELL",
+      "symbol": "MU",
+      "quantity": 1,
+      "price": 399.65,
+      "rationale": "Reducir la exposición en Micron Technology ante los desafíos en el mercado de memoria.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "position_percent": 3.88,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:26:00",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MU",
+      "quantity": 1,
+      "price": 399.65,
+      "rationale": "Invirtiendo en Micron Technology dada su fuerte posición en memoria de alta velocidad crucial para aplicaciones de IA.",
+      "stop_loss": 379.67,
+      "take_profit": 439.62,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 2,
+      "max_quantity": 2,
+      "position_percent": 3.88,
+      "risk_per_share": 19.98,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:26:00",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "AVGO",
+      "quantity": 1,
+      "price": 320.05,
+      "rationale": "Broadcom está bien posicionada para beneficiarse del aumento en tecnologías de IA y se proyecta un sólido crecimiento.",
+      "stop_loss": 304.05,
+      "take_profit": 352.06,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 3,
+      "max_quantity": 3,
+      "position_percent": 3.1,
+      "risk_per_share": 16.0,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
+  },
+  {
+    "timestamp": "2026-01-26 20:26:02",
+    "proposal": {
+      "action": "BUY",
+      "symbol": "MRVL",
+      "quantity": 2,
+      "price": 80.23,
+      "rationale": "Marvell Technology ha sido identificada como una oportunidad de crecimiento en el mercado de semiconductores y AI.",
+      "stop_loss": 76.22,
+      "take_profit": 88.25,
+      "sector": "Unknown"
+    },
+    "risk_params": {
+      "recommended_quantity": 12,
+      "max_quantity": 12,
+      "position_percent": 1.56,
+      "risk_per_share": 4.01,
+      "risk_reward_ratio": 2.0
+    },
+    "supervisor_review": {
+      "approved": true,
+      "risk_score": 5,
+      "feedback": "Aprobación automática (error en evaluación: Expecting property name enclosed in double quotes:)",
+      "suggestions": [],
+      "concerns": [
+        "Revisar manualmente"
+      ]
+    },
+    "executed": true
   }
 ]

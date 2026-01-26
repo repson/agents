@@ -215,7 +215,7 @@ def create_ui():
 
 if __name__ == "__main__":
     # Configuración del servidor desde variables de entorno
-    server_host = os.getenv("SERVER_HOST", "192.168.0.37")  # 0.0.0.0 escucha en todas las interfaces
+    server_host = os.getenv("SERVER_HOST", "100.116.19.103")  # 0.0.0.0 escucha en todas las interfaces
     server_port = int(os.getenv("SERVER_PORT", "7860"))
 
     ui = create_ui()
